@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wadi-e-Ghazi Abbas Alamdar | Official Portal</title>
+    <!-- Adding Google Fonts for a more premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0a3d28; /* Deeper Green */
+            --secondary: #d4af37; /* Richer Gold */
+            --text: #1f2937;
+            --light: #f9fafb;
+            --glass: rgba(255, 255, 255, 0.9);
+        }
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.8;
+            color: var(--text);
+            background-color: var(--light);
+            margin: 0;
+        }
+
+        /* Modern Glassmorphism Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #155e37 100%);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--secondary);
+            position: relative;
+        }
+
+        header h1 {
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        nav {
+            background: var(--glass);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        /* Hero Section with Parallax Feel */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1400');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
+            height: 450px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-content h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 2.5rem;
+            border: none;
+            padding: 0;
+        }
+
+        .main-content {
+            max-width: 1000px;
+            margin: -60px auto 40px; /* Overlap effect */
+            background: white;
+            padding: 50px;
+            position: relative;
+            z-index: 10;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+            border-radius: 15px;
+        }
+
+        h2 { 
+            color: var(--primary); 
+            margin-top: 2.5rem; 
+            font-family: 'Cinzel', serif;
+            border-left: 5px solid var(--secondary); 
+            padding-left: 20px; 
+        }
+
+        .info-card {
+            background: #fffdf5;
+            border: 1px dashed var(--secondary);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .info-item strong {
+            display: block;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s;
+            font-weight: 600;
+            border: 2px solid transparent;
+        }
+
+        .btn:hover {
+            background: transparent;
+            color: var(--primary);
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .map-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #eee;
+            border-radius: 12px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background: #111;
+            color: #888;
+            text-align: center;
+            padding: 4rem 2rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wadi-e-Ghazi Abbas Alamdar</h1>
+    <p>The Sacred Oasis of Nooriabad, Sindh</p>
+</header>
+
+<nav>
+    <a href="#">HOME</a>
+    <a href="#about">THE SPIRITUALITY</a>
+    <a href="#location">GEOGRAPHY</a>
+    <a href="#contact">VISIT</a>
+</nav>
+
+<div class="hero">
+    <div class="hero-content">
+        <h2>Faith in the Peaks</h2>
+        <p>A journey through the hills of devotion.</p>
+    </div>
+</div>
+
+<div class="main-content">
+    <section id="about">
+        <h2>A Spiritual Sanctuary</h2>
+        <p>Nestled within the rugged, sun-drenched hills of <strong>Nooriabad</strong>, Wadi-e-Ghazi Abbas Alamdar (also known as <em>Alam Wali Pahari</em>) stands as a testament to the enduring faith of the people of Sindh. The valley is not just a destination; it is a spiritual experience where the silence of the mountains meets the whispers of prayer.</p>
+        
+        <h3>The Majestic Alam</h3>
+        <p>The <em>Alam</em> (sacred flag) of Hazrat Abbas Alamdar (A.S) is situated on the highest peak of the valley. It serves as a visual landmark for travelers on the <strong>M-9 Motorway</strong>, symbolizing resilience and protection over the plains of Sindh.</p>
+    </section>
+
+    <div class="info-card">
+        <div class="info-item">
+            <strong>Ideal Season</strong>
+            Monsoon (July - Sep)
+        </div>
+        <div class="info-item">
+            <strong>Trek Difficulty</strong>
+            Moderate / Family Friendly
+        </div>
+        <div class="info-item">
+            <strong>Route</strong>
+            M-9 Karachi-Hyderabad
+        </div>
+    </div>
+
+    <section id="location">
+        <h2>The Geography of Nooriabad</h2>
+        <p>This region is part of the <strong>Kohistan Range</strong>. While typically arid, the monsoon rains transform the valley into a vibrant green landscape, filling the natural streams and providing a cool refuge for visitors from Karachi and Hyderabad.</p>
+        
+        <!-- You can replace this with an actual Google Maps iframe -->
+        <div class="map-placeholder">
+            [Interactive Map of Alam Wali Pahari, Nooriabad]
+        </div>
+        <center style="margin-top:20px;">
+            <a href="https://www.google.com/maps" class="btn">Get Directions</a>
+        </center>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Official Portal | Wadi-e-Ghazi Abbas Alamdar</p>
+    <p style="color: var(--secondary);">Digital Services by Phone Expert Hub</p>
+</footer>
+
+</body>
+</html>
